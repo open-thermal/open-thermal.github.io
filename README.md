@@ -11,7 +11,10 @@ questions and suggestions; see [CONTRIBUTING.md](CONTRIBUTING.md). The first pro
 Mean radiant temperature (MRT) is the radiation a person absorbs from sun, sky and surrounding surfaces. It often drives outdoor
 heat stress more than air temperature does. The projects below estimate it from different kinds of data.
 
----|---|---|---|---|
+## Projects
+
+| Project | What it does | Live tool | Paper | Example code |
+|---|---|---|---|---|
 | **Cool Routes** | Walking routes on the ASU campus that trade a little distance for much less radiant heat, from hourly SOLWEIG MRT forecasts | [coolroutes.sensableheatscapes.com](https://coolroutes.sensableheatscapes.com/) | Buo *et al.*, *Building and Environment* (in press), [doi:10.1016/j.buildenv.2026.114622](https://doi.org/10.1016/j.buildenv.2026.114622) | [`codebases/cool-routes`](codebases/cool-routes) |
 | **VisionMRT** | Physics-based MRT, UTCI and PET from a 360° image: segmentation, depth, shadow casting, surface energy balance | [shadelab.asu.edu/VisionMRT](https://shadelab.asu.edu/VisionMRT) | Middel *et al.*, *Sustainable Cities and Society* 151:108016 (2026), [doi:10.1016/j.scs.2026.108016](https://doi.org/10.1016/j.scs.2026.108016) | [`codebases/visionmrt`](codebases/visionmrt) |
 | **WebMRT** | Machine-learning prediction of summertime MRT from meteorology and the surroundings (LightGBM, trained on MaRTy field data) | [shadelab.asu.edu/WebMRT](https://shadelab.asu.edu/WebMRT) | AlKhaled *et al.*, *Sustainable Cities and Society* 115:105861 (2024), [doi:10.1016/j.scs.2024.105861](https://doi.org/10.1016/j.scs.2024.105861) | [`codebases/webmrt`](codebases/webmrt) |
