@@ -13,7 +13,7 @@ authors:
     given-names: Isaac
   - family-names: Schneider
     given-names: Florian A.
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/webmrt"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/webmrt"
 preferred-citation:
   type: article
   title: "WebMRT: An online tool to predict summertime mean radiant temperature using machine learning"

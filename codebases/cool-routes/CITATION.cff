@@ -16,7 +16,7 @@ authors:
   - family-names: Middel
     given-names: Ariane
     affiliation: "Arizona State University"
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/cool-routes"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/cool-routes"
 license: Apache-2.0
 preferred-citation:
   type: article

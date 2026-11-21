@@ -4,7 +4,7 @@ title: "MaRTiny: firmware for a low-cost biometeorological sensing device with e
 type: software
 authors:
   - name: "The SHaDE Lab, Arizona State University"
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/MaRTiny"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/MaRTiny"
 license: CERN-OHL-P-2.0
 # TODO: confirm the author list for this release with the lab.
 preferred-citation:

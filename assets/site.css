@@ -475,3 +475,6 @@ button.btn{font:inherit;font-weight:600;font-size:.95rem;line-height:1.6;cursor:
   0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 65%,transparent),0 0 6px 0 color-mix(in srgb,var(--accent) 35%,transparent)}
   50%{box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 0%,transparent),0 0 18px 4px color-mix(in srgb,var(--accent) 70%,transparent)}}
 @media(prefers-reduced-motion:reduce){.tour-next{animation:none;box-shadow:0 0 14px 2px color-mix(in srgb,var(--accent) 60%,transparent)}}
+
+/* banner name: the two initials of OpenThermal glow */
+.lab-name b{font-weight:400;color:#ffe08a;text-shadow:0 0 6px rgba(255,214,110,.95),0 0 16px rgba(255,170,70,.65),0 0 30px rgba(255,140,60,.35)}

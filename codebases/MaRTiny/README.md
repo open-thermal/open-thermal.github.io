@@ -4,7 +4,7 @@
 
 [SHaDE Lab](https://shadelab.asu.edu/tools-data/) · Arizona State University · License: [CERN-OHL-P-2.0](LICENSE)
 
-MaRTiny is "MaRTy's tiny sibling". It measures globe temperature, air temperature, humidity, UV and wind, and photographs the space it watches, so that a server can estimate mean radiant temperature and count pedestrians in sun and in shade. It was deployed in City of Tempe parks from 2021 to 2023. An interactive 3D model of the installation is on the [Projects Showcase website](../../index.html#martiny).
+MaRTiny is "MaRTy's tiny sibling". It measures globe temperature, air temperature, humidity, UV and wind, and photographs the space it watches, so that a server can estimate mean radiant temperature and count pedestrians in sun and in shade. It was deployed in City of Tempe parks from 2021 to 2023. An interactive 3D model of the installation is on the [OpenThermal website](../../index.html#martiny).
 
 This folder holds the **firmware of its two microcontrollers**, the **server software** that stores and analyses what they send (image analysis with YOLO and shadow detection, and the MongoDB database), the **models**, and the tests.
 
@@ -117,4 +117,4 @@ Kulkarni, K. K., Schneider, F. A., Gowda, T., Jayasuriya, S., & Middel, A. (2022
 
 ## License
 
-[CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)](LICENSE) for the files in this folder. The rest of the Projects Showcase repository is under the Apache License 2.0. Arduino, ESP32 and the sensor libraries keep their own licenses.
+[CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)](LICENSE) for the files in this folder. The rest of the OpenThermal repository is under the Apache License 2.0. Arduino, ESP32 and the sensor libraries keep their own licenses.

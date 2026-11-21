@@ -14,7 +14,7 @@ authors:
     given-names: Florian A.
   - family-names: Udupa
     given-names: Ananth
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/panomrt"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/panomrt"
 license: Apache-2.0
 preferred-citation:
   type: article

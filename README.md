@@ -1,19 +1,17 @@
-# Projects Showcase
+# OpenThermal
 
-**A showcase of the SHaDE Lab's published human-thermal-exposure tools: papers, live tools, interactive demos and open-source example code.**
+**An open ecosystem for outdoor thermal research: projects, tools, code and papers on human thermal exposure and mean radiant temperature.**
 
-[SHaDE Lab](https://shadelab.asu.edu) · Arizona State University
+Website: <https://open-thermal.github.io> · Source: <https://github.com/open-thermal/open-thermal.github.io>
 
-> **Status:** private review copy. The repository is shared inside the SHaDE-Lab organization so the lab can look it over
-> before it is made public. Everything here is intended to be open source (see [License](#license)).
+OpenThermal is meant to be shared by many labs. Anyone can add a project, tool, dataset or resource through a pull request, and use issues for
+questions and suggestions; see [CONTRIBUTING.md](CONTRIBUTING.md). The first projects here come from the SHaDE Lab at Arizona State University
+([shadelab.asu.edu](https://shadelab.asu.edu)); more are welcome.
 
 Mean radiant temperature (MRT) is the radiation a person absorbs from sun, sky and surrounding surfaces. It often drives outdoor
-heat stress more than air temperature does. The three projects below estimate it from three kinds of data.
+heat stress more than air temperature does. The projects below estimate it from different kinds of data.
 
-## Projects
-
-| Project | What it does | Live tool | Paper | Example code |
-|---|---|---|---|---|
+---|---|---|---|---|
 | **Cool Routes** | Walking routes on the ASU campus that trade a little distance for much less radiant heat, from hourly SOLWEIG MRT forecasts | [coolroutes.sensableheatscapes.com](https://coolroutes.sensableheatscapes.com/) | Buo *et al.*, *Building and Environment* (in press), [doi:10.1016/j.buildenv.2026.114622](https://doi.org/10.1016/j.buildenv.2026.114622) | [`codebases/cool-routes`](codebases/cool-routes) |
 | **VisionMRT** | Physics-based MRT, UTCI and PET from a 360° image: segmentation, depth, shadow casting, surface energy balance | [shadelab.asu.edu/VisionMRT](https://shadelab.asu.edu/VisionMRT) | Middel *et al.*, *Sustainable Cities and Society* 151:108016 (2026), [doi:10.1016/j.scs.2026.108016](https://doi.org/10.1016/j.scs.2026.108016) | [`codebases/visionmrt`](codebases/visionmrt) |
 | **WebMRT** | Machine-learning prediction of summertime MRT from meteorology and the surroundings (LightGBM, trained on MaRTy field data) | [shadelab.asu.edu/WebMRT](https://shadelab.asu.edu/WebMRT) | AlKhaled *et al.*, *Sustainable Cities and Society* 115:105861 (2024), [doi:10.1016/j.scs.2024.105861](https://doi.org/10.1016/j.scs.2024.105861) | [`codebases/webmrt`](codebases/webmrt) |
@@ -24,7 +22,7 @@ Network Approach for Mean Radiant Temperature Modeling*, ICCV Workshops, [IEEE X
 
 ## Tools
 
-The two instruments behind the lab's field data, each with an interactive 3D model you can rotate and take apart:
+The two instruments behind the SHaDE Lab's field data, each with an interactive 3D model you can rotate and take apart:
 
 | Tool | What it is | Paper | Code |
 |---|---|---|---|
@@ -37,7 +35,7 @@ proportions are approximate and some mounting details are simplified.
 ## What is in this repository
 
 ```
-index.html            the showcase website (static, no build step)
+index.html            the website (static, no build step)
 assets/               styles, scripts and the single place to edit links (PORTAL block in assets/site.js)
 demos/                interactive demos that run in the browser
   coolroutes/           real ASU campus data and a JavaScript router with the same cost function as the Python code
@@ -100,8 +98,7 @@ the live-tool URL, paper URL, code URL and whether the live tool can be embedded
   `embed` flag to `true`.
 * **Start and destination in the embedded Cool Routes.** [`patches/`](patches) holds a small proposed change to the Cool Routes frontend
   that reads `?start=COOR&end=CRTVC`. It is a proposal only and has not been applied to any lab repository.
-* **Hosting.** The site is plain static files (`.nojekyll` is included), so it can be served with GitHub Pages once the repository
-  is public, or on any static host.
+* **Hosting.** The site is plain static files (`.nojekyll` is included) and is served with GitHub Pages at <https://open-thermal.github.io>.
 
 ## Data and third-party notices
 
@@ -120,7 +117,7 @@ a `CITATION.cff`).
 
 Code is released under the [Apache License 2.0](LICENSE), except [`codebases/MaRTy`](codebases/MaRTy) and [`codebases/MaRTiny`](codebases/MaRTiny), which are released under the
 [CERN Open Hardware Licence v2, Permissive (CERN-OHL-P-2.0)](codebases/MaRTy/LICENSE) because they describe hardware instruments.
-Third-party material keeps its own license (see [NOTICE](NOTICE)).
+Each contributed project keeps the license stated in its folder; third-party material keeps its own license (see [NOTICE](NOTICE)).
 
 ## Contact
 

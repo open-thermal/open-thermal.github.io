@@ -10,7 +10,7 @@ authors:
     given-names: Ariane
   - family-names: AlKhaled
     given-names: Saud
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/visionmrt"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/visionmrt"
 license: Apache-2.0
 preferred-citation:
   type: article

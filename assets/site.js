@@ -7,8 +7,8 @@
 window.PORTAL = {
   contact: "https://shadelab.asu.edu/contact/",
   projects: {
-    marty: { paper: "https://doi.org/10.1016/j.scitotenv.2019.06.085", code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/MaRTy" },                                  // Middel & Krayenhoff 2019
-    martiny: { paper: "https://doi.org/10.3389/fenvs.2022.866240", code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/MaRTiny" },  // Kulkarni et al. 2022
+    marty: { paper: "https://doi.org/10.1016/j.scitotenv.2019.06.085", code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/MaRTy" },                                  // Middel & Krayenhoff 2019
+    martiny: { paper: "https://doi.org/10.3389/fenvs.2022.866240", code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/MaRTiny" },  // Kulkarni et al. 2022
     coolroutes: {
       embed: true,      // true = show the live tool in an iframe; false = launch card
       // pre-selects Coor Hall -> Creativity Commons (building codes). Needs patches/cool-routes-frontend-url-params.patch deployed; ignored otherwise.
@@ -16,7 +16,7 @@ window.PORTAL = {
       poster: "",   // a screenshot cover shown over the live tool until the visitor clicks; "" loads the live tool directly (cover image: assets/img/coolroutes-preview.webp)
       tool: "https://coolroutes.sensableheatscapes.com/",
       paper: "https://doi.org/10.1016/j.buildenv.2026.114622",
-      code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/cool-routes",
+      code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/cool-routes",
       data: "",
       codeStatus: "Open-source example code (Apache-2.0)",
       folder: "codebases/cool-routes/",
@@ -25,14 +25,14 @@ window.PORTAL = {
       embed: false,      // true = show the live tool in an iframe; false = launch card
       tool: "https://shadelab.asu.edu/WebMRT",
       paper: "https://doi.org/10.1016/j.scs.2024.105861",
-      code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/webmrt",
+      code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/webmrt",
       data: "",
       codeStatus: "Open-source example code (Apache-2.0)",
       folder: "codebases/webmrt/",
     },
     panomrt: {         // a method and open-source model with no web tool
       paper: "https://doi.org/10.1016/j.scitotenv.2022.160301",   // Science of The Total Environment 859:160301 (2023)
-      code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/panomrt",
+      code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/panomrt",
       codeStatus: "Open-source example code (Apache-2.0)",
       folder: "codebases/panomrt/",
     },
@@ -40,7 +40,7 @@ window.PORTAL = {
       embed: false,      // true = show the live tool in an iframe; false = launch card
       tool: "https://shadelab.asu.edu/VisionMRT",
       paper: "https://doi.org/10.1016/j.scs.2026.108016",   // Sustainable Cities and Society 151:108016 (2026)
-      code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/visionmrt",
+      code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/visionmrt",
       data: "",
       codeStatus: "Open-source example code (Apache-2.0)",
       folder: "codebases/visionmrt/",

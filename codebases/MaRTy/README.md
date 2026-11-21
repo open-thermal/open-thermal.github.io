@@ -8,7 +8,7 @@ temperature, and the field guide for running it.**
 MaRTy (Mean Radiant Temperature cart) is a wheeled cart carrying a mast with twelve radiation sensors, a weather probe, an
 ultrasonic anemometer and a GPS. Walked through a place, it records what a pedestrian is exposed to every 2 seconds and computes mean
 radiant temperature (MRT) on board. Its measurements are the training data behind [WebMRT](../webmrt) and a validation reference for
-the lab's other models. An interactive 3D model of the cart is on the [Projects Showcase website](../../index.html#marty).
+the lab's other models. An interactive 3D model of the cart is on the [OpenThermal website](../../index.html#marty).
 
 ## What is in this folder
 
@@ -118,5 +118,5 @@ See also `CITATION.cff`.
 ## License
 
 [CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0)](LICENSE), applied to the files in this folder. The rest of the
-Projects Showcase repository is under the Apache License 2.0. The CRBasic program was created with Campbell Scientific's Short Cut and
+OpenThermal repository is under the Apache License 2.0. The CRBasic program was created with Campbell Scientific's Short Cut and
 modified by Ariane Middel (2019); Campbell Scientific, Hukseflux, Gill and Garmin product names belong to their owners.

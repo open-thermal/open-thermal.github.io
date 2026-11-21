@@ -6,7 +6,7 @@ authors:
   - family-names: Middel
     given-names: Ariane
     affiliation: "Arizona State University"
-repository-code: "https://github.com/SHaDE-Lab/Showcase/tree/main/codebases/MaRTy"
+repository-code: "https://github.com/open-thermal/open-thermal.github.io/tree/main/codebases/MaRTy"
 license: CERN-OHL-P-2.0
 # Middel modified the CRBasic program (2019-08-18).
 # TODO: confirm the author list for this release with the lab.

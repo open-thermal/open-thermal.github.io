@@ -1,7 +1,8 @@
-Projects Showcase
-Copyright 2026 The SHaDE Lab, Arizona State University
+OpenThermal
 
-This product includes software developed at the SHaDE Lab, Arizona State University.
+The website code in this repository (index.html, assets/, demos/) is Copyright 2026 its contributors.
+Each folder under codebases/ is copyright of the authors named in that folder. The projects currently here were written at the
+SHaDE Lab, Arizona State University (Copyright 2026 The SHaDE Lab, Arizona State University).
 
 The folders codebases/MaRTy and codebases/MaRTiny are released under the CERN Open Hardware Licence Version 2 - Permissive
 (CERN-OHL-P-2.0); see the LICENSE file in each folder. Everything else in this repository is Apache-2.0.
